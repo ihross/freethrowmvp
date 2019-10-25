@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import FTimg from './shooting-free-throw.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={FTimg} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Building through <code>src/App.js</code> file.
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Free Throw MVP
         </a>
       </header>
     </div>
