@@ -1,12 +1,12 @@
 import React from 'react';
-import FTimg from './shooting-free-throw.jpg';
+import FreeThrowLogo from './shooting-free-throw.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={FTimg} className="App-logo" alt="logo" />
+        <img src={FreeThrowLogo} className="free-throw-logo" alt="logo" />
         <p>
           Building through <code>src/App.js</code> file.
         </p>
